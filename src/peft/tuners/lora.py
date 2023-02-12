@@ -23,8 +23,6 @@ import torch.nn as nn
 import torch.nn.functional as F
 from transformers.pytorch_utils import Conv1D
 
-import bitsandbytes as bnb
-
 from ..utils import PeftConfig, PeftType, transpose
 
 
